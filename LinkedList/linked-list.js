@@ -27,7 +27,6 @@ class LinkedList {
 
         //   if the list has only one node 
         this.head = this.tail = newNode;
-        console.log("new node", newNode);
         return newNode;
     }
 

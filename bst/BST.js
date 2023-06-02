@@ -134,7 +134,6 @@ class BST {
     }
 
     findMinNode(node) {
-        console.log("fin min node", node);
         if (node.left === null)
             return node;
         else
@@ -148,12 +147,12 @@ class BST {
         }
 
         // if value is smaller than node then go left
-        else if (data < node.data) {
+        else if (data < node.value) {
             return this.search(node.left, data);
         }
 
         // if value is bigger than node then go right
-        else if (data > node.data) {
+        else if (data > node.value) {
             return this.search(node.right, data);
         }
 
@@ -174,7 +173,5 @@ BSTT.insert(40);
 BSTT.insert(70);
 BSTT.insert(60);
 BSTT.insert(80);
-
-console.log("this root", this.root);
 
 module.exports = { TreeNode, BST }

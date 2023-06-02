@@ -35,6 +35,6 @@ describe('Binary Search Tree', () => {
     bst.insert(9);
     bst.insert(1);
     bst.insert(8);
-    expect(bst.search(bst.root,1)).toEqual("");
+    expect(bst.search(bst.root,5)).toEqual({"left": null, "right": {"left": {"left": null, "right": null, "value": 8}, "right": null, "value": 9}, "value": 5});
   });
 })

@@ -11,14 +11,14 @@ Make sure you have Node.js (14.x, 16.x, 18.x) and NPM installed on your machine.
 1. navigate to the folder where you cloned the project
 2. open integrated terminal
 3. run the following command 
-```
-$ npm run test
+```bash
+ npm run test
 ```
 #### Running each algorithm on its own
 1. navigate to the folder where you cloned the project
 2. navigate to the folder of the targeted algorithm
 3. open integrated terminal
 4. run the following command
-```
-$ node "js file name"
+```bash
+ node "quicksort.js"
 ```

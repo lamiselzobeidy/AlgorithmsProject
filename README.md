@@ -1,11 +1,12 @@
 # Algorithms Project
+[![Test](https://github.com/lamiselzobeidy/AlgorithmsProject/actions/workflows/node.js.yml/badge.svg)](https://github.com/lamiselzobeidy/AlgorithmsProject/actions/workflows/node.js.yml)
 ## Brief about the project 📑
 This project contains a simple implementation to the algorithms in the book "Grokking Algorithms".
 ## Languages Used 🖋
 Javascript
 ## Installation Instructions 🛠
 #### Prerequisites
-Make sure you have Node.js and NPM installed on your machine.
+Make sure you have Node.js (14.x, 16.x, 18.x) and NPM installed on your machine.
 #### Running the entire project unit tests
 1. navigate to the folder where you cloned the project
 2. open integrated terminal
